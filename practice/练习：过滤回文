@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+def ispalindrome(n):
+    return str(n)==str(n)[::-1]
+s=['123','121','12321','199','909']
+print(list(filter(ispalindrome,s)))
