@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+#练习1
+def normalize(s):
+    return s[:1].upper()+s[1:].lower()
+＃练习2
+from functools import reduce
+def fn(x,y):
+    return x*y
+def prod(list):
+    return reduce(fn,list)
+＃练习3
+
+    
