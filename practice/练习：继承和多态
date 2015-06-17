@@ -1,0 +1,24 @@
+class Animal(object):
+    def run(self):
+        print('Animal i s running...')
+
+class Dog(Animal):
+
+    def run(self):
+        print('Dog is running...')
+
+class Cat(Animal):
+
+    def run(self):
+        print('Cat is running...')
+
+def run_twice(animal):
+    animal.run()
+    animal.run()
+
+class Tortoise(Animal):
+    def run(self):
+        print('Tortoise is running slowly...')
+run_twice(Dog())
+run_twice(Cat())
+run_twice(Tortoise())
